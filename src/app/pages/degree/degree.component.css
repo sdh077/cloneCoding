@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'WorkSans-Regular';
+    font-style: normal;
+    src: url('/assets/degree/font/WorkSans-Regular.otf') format('truetype');
+}
+    @font-face {
+    font-family: 'we120';
+    font-style: normal;
+    src: url('/assets/degree/font/we120.woff') format('truetype');
+}
+.wrap {
+    display:flex;
+    /* flex-direction:row; */
+    height: 100vh;
+    width: 100%;
+    font-family: 'WorkSans-Regular','we120' !important;
+
+}
+.nav{
+    height: 100vh;
+    flex-basis: 270px;
+    border-right: 1px solid black;
+    margin-left: 29px;
+    padding-top: 30px;
+}
+.nav .logo {
+    width: 173.74px;
+    height: 35.62px;
+}
+.nav .logoyear {
+    margin-top: 23px;
+    font-size: 20pt;
+}
+.nav .category {
+    font-size: 10pt;
+    margin-top: 10px;
+}
+.item {
+    margin-bottom: 18px;
+    line-height: 20px;
+}
+.active {
+    display: inline;
+    border-bottom: 1px solid black;
+}
+.no-active:hover {
+    display: inline;
+    border-bottom: 1px solid black;
+}
+
+.contents{
+    height: 100vh;
+
+}

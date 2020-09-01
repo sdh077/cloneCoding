@@ -1,0 +1,8 @@
+<ul id="messages">
+  <li *ngFor="let message of messages">
+    {{message.msg}}
+  </li>
+</ul>
+<form>
+  <input [(ngModel)]="messageText" name="messageText" ngDefaultControl><button (click)="sendMessage()">전송</button>
+</form>

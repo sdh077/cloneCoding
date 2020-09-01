@@ -1,0 +1,36 @@
+aside {
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+nav{
+    position: fixed;
+    top:40%;
+}
+nav ul li {
+    list-style: none;
+}
+.full-Background{
+    width: 85%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+.arrow{
+    width: 20px;
+}
+.arrow-left{
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    background-color: gray;
+    padding: 10px;
+}
+.arrow-right{
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    background-color: gray;
+    padding: 10px;
+    right: 0;
+}
